@@ -1,1 +1,1 @@
-# refi-talentsDAO
+# Refi Talents DAO
