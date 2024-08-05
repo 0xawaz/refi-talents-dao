@@ -8,12 +8,12 @@ module.exports = {
       port: 7545,
       network_id: "*", // Match any network id
     },
-    mumbai: {
+    sepolia: {
       provider: () => new HDWalletProvider(
         process.env.MNEMONIC,
-        `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API_KEY}`
+        `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`
       ),
-      network_id: 80001, // Mumbai network id
+      network_id: 11155111, // Sepolia network id
       confirmations: 2,
       timeoutBlocks: 200,
       skipDryRun: true
